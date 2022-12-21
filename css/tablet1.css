@@ -1,0 +1,20 @@
+@media (min-width: 600px) and (max-width: 768px) {
+  #digital-cv .container {
+    display: block;
+  }
+  .goals,
+  .scopes,
+  .team,
+  .primary {
+    border-bottom: 12px solid rgb(37, 0, 247);
+  }
+  .icon-goals {
+    margin-left: 190px;
+  }
+  .icon-team {
+    margin-left: 220px;
+  }
+  .icon-primary {
+    margin-left: 150px;
+  }
+}

@@ -1,0 +1,60 @@
+@media (min-width: 600px) and (max-width: 768px) {
+  /* PHan NavBar */
+  .banner-img {
+    display: none;
+  }
+  #nav-bar .container {
+    padding: 30px;
+  }
+  #nav-bar a {
+    padding: 0 6px;
+  }
+  /* Thong tin ca nhan  */
+  #target {
+    padding: 20px;
+  }
+  #personal-info {
+    padding: 20px;
+  }
+  /* Thong tin nghe nghiep  */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .kn-1 {
+    top: 175px;
+  }
+  .kn-2 {
+    bottom: 300px;
+  }
+  .hd-1 {
+    top: 175px;
+  }
+  .hd-2 {
+    bottom: 755px;
+  }
+  .hv-1 {
+    top: 135px;
+  }
+  .hv-2 {
+    bottom: 675px;
+  }
+  /* Chung chi  */
+  .bg-grey {
+    padding: 20px;
+  }
+
+  .chungchi-1 {
+    flex-direction: column;
+  }
+  .info-cc li {
+    margin-left: -30px;
+  }
+  /* Dự án */
+  #project {
+    margin-left: -270px;
+    padding: 10px;
+  }
+  .img-duan {
+    height: 140px;
+  }
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#digital-cv .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 12px;
+  background-color: rgb(37, 0, 247);
+  padding: 12px;
+}
+.scopes {
+  grid-area: 2/1/3/2;
+}
+.timeline {
+  grid-area: 1/3/3/4;
+}
+h1 {
+  color: blue;
+  border-bottom: 2px solid rgb(148, 161, 165);
+  padding-bottom: 10px;
+}
+.timeline-bottom {
+  border-bottom: 2px dotted #10bddb;
+  margin-left: 10px;
+}
+.number {
+  background-color: rgb(128, 109, 196);
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 15px;
+}

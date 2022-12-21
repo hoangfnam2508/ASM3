@@ -1,0 +1,82 @@
+@media (max-width: 600px) {
+  .banner-img {
+    display: none;
+  }
+  /* PHan NavBar */
+  #nav-bar .container {
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 70px;
+  }
+
+  /* Thong tin ca nhan  */
+  #about .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #5a5858;
+  }
+  #target {
+    padding: 5px;
+  }
+  /* Thong tin nghe nghiep  */
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+  .kn-1 {
+    top: 130px;
+  }
+  .kn-2 {
+    bottom: 155px;
+  }
+  .hd-1 {
+    top: 130px;
+  }
+  .hd-2 {
+    bottom: 85px;
+  }
+  .hv-1 {
+    top: 132px;
+  }
+  .hv-2 {
+    bottom: 345px;
+  }
+  /* Chung chi  */
+  .bg-grey {
+    padding: 20px;
+  }
+  .chungchi {
+    grid-template-columns: 1fr;
+  }
+  .chungchi-1 {
+    flex-direction: column;
+  }
+  .chungchi-1:first-child {
+    border-bottom: 1px solid #d6c08d;
+    grid-column: 1 /-1;
+    padding-top: 32px;
+  }
+  .chungchi-1:last-child {
+    border-bottom: 1px solid #d6c08d;
+    border-top: none;
+    grid-column: 1 /-1;
+    padding-top: 32px;
+  }
+  .chungchi-1:nth-child(2) {
+    border-left: none;
+    margin-left: -18px;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .info-cc li {
+    margin-left: -30px;
+  }
+  /* Dự án */
+  #project {
+    padding: 10px;
+  }
+  .duan {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    margin-bottom: 20px;
+  }
+}

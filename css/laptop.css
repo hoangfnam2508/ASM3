@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #5a5858;
+}
+
+section > .container {
+  /* width: 1170px; */
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+/* Anh Nen  */
+#banner {
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)),
+    url(../images/banner.jpg);
+  height: 70vh;
+  position: relative;
+}
+.banner-1 {
+  margin-top: 100px;
+  display: inline-block;
+}
+.avatar {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 80%);
+}
+/* Can Chinh Navbar */
+#nav-bar .container {
+  display: flex;
+  justify-content: space-around;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 16px;
+}
+.nav-icon {
+  color: #1c7ed6;
+  display: inline-block;
+}
+/* Thong tin ca nhan  */
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #5a5858;
+}
+#target {
+  background-color: #f7f7f7;
+  padding: 78px 32px 32px 48px;
+  line-height: 1.7;
+}
+#personal-info {
+  background-color: #f1f1f1;
+  padding: 48px 32px 32px 48px;
+  line-height: 1.7;
+}
+.info-icon {
+  margin-top: 32px;
+  color: #1c7ed6;
+}
+ul {
+  list-style: none;
+}
+/* Thong tin nghe nghiep  */
+#job-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px;
+  padding: 32px 50px;
+}
+.info {
+  border: 2px solid #9c9999;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 32px 12px 32px;
+  position: relative;
+}
+.info-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.info-list {
+  padding: 32px 0 0 24px;
+}
+.job-info-icon {
+  font-size: 36px;
+  color: #5a5858;
+}
+/* .info-kynang {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.info-ngonngu {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.info-hoatdong {
+  grid-area: 2 / 1 / 3 / 2;
+} */
+.hientai {
+  display: inline-block;
+  background-color: #1977ca;
+  padding: 0 8px;
+  border-radius: 5px;
+  color: #fff;
+}
+/* Cham Xanh */
+.chamxanh {
+  background-color: #1977ca;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+}
+.kn-1 {
+  top: 190px;
+}
+.kn-2 {
+  bottom: 180px;
+}
+.hd-1 {
+  top: 142px;
+}
+.hd-2 {
+  bottom: 515px;
+}
+.hv-1 {
+  top: 142px;
+}
+.hv-2 {
+  bottom: 490px;
+}
+/* So Thich */
+.sothich {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 32px;
+  text-align: center;
+}
+.st-icon {
+  border: 1px solid #1977ca;
+  width: 40px;
+  height: 40px;
+  color: #1977ca;
+  border-radius: 50%;
+  padding: 10px 0;
+  font-size: 20px;
+}
+/* Thanh diem ngon ngu  */
+
+.xanh {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.xam {
+  background-color: #cfcaca;
+}
+.name-nn,
+.name-skill {
+  padding-top: 32px;
+  font-weight: bold;
+}
+.xanh-1,
+.xam-1 {
+  height: 4px;
+}
+/* Chung Chi  */
+.bg-grey {
+  background-color: #f7f7f7;
+  padding: 48px 80px;
+}
+.bg-grey .section-title {
+  padding-bottom: 32px;
+}
+.chungchi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.chungchi-1 {
+  display: flex;
+  margin-bottom: 32px;
+}
+.chungchi-1:last-child {
+  border-top: 1px solid #d6c08d;
+  grid-column: 1 /-1;
+  padding-top: 32px;
+}
+.chungchi-1:nth-child(2) {
+  border-left: 1px solid #d6c08d;
+  padding: 0 16px;
+}
+
+.img-cc {
+  padding-right: 16px;
+}
+.info-cc {
+  line-height: 1.5;
+}
+/* Du An  */
+#project {
+  padding: 48px 80px;
+}
+.duan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+.duan-2 {
+  border: 2px solid #ced4da;
+}
+.duan-name {
+  border-bottom: 1px solid #ced4da;
+  padding: 16px;
+}
+.duan-info {
+  border-bottom: 1px solid #ced4da;
+}
+.duan-info span {
+  display: inline-block;
+  margin: 16px 12px;
+}
+.duan-blue {
+  background-color: #1977ca;
+  color: #fff;
+  border-radius: 12px;
+  padding: 4px 12px;
+}
+.duan-table {
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+}
+.duan-table p {
+  padding: 8px;
+}
+.table-1 {
+  min-width: 96px;
+}
+/* Lien he  */
+#footer ul {
+  display: flex;
+  justify-content: center;
+}
+#footer li {
+  padding: 16px 32px;
+}
+#footer a {
+  text-decoration: none;
+  color: #5a5858;
+}
+.footer-icon {
+  background-color: #1977ca;
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+}
